@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Logging;
-using TodoWebAPI.Models;
+using TodoWebAPI.Models.Todo;
 
 namespace TodoWebAPI.Controllers
 {

@@ -1,11 +1,11 @@
-﻿namespace TodoWebAPI.Models
+﻿namespace TodoWebAPI.Models.Todo
 {
     public interface ITodoRepository
     {
         IEnumerable<TodoItem> Get();
-        TodoItem Get(int id);
+        TodoItem? Get(int id);
         void Create(TodoItem item);
         void Update(TodoItem item);
-        TodoItem Delete(int id);
+        TodoItem? Delete(int id);
     }
 }
